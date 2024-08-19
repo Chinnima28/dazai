@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Google Translate Webpage",
+  "version": "1.0",
+  "description": "Translate all text on the web page to Tamil using Google Translate.",
+  "permissions": [
+      "activeTab"
+  ],
+  "background": {
+      "service_worker": "background.js"
+  },
+  "action": {
+      "default_title": "Translate this page"
+  }
+}
